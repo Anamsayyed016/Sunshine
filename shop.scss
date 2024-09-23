@@ -1,0 +1,175 @@
+@import 'variablea.scss';
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+.fa-fa-nav-bar {
+// background-color: palevioletred;
+position: sticky;
+top: 0px;
+z-index: 1;
+}
+
+.fa-fa-nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+}
+.fa-fa-nav-bar ul a:hover{
+    background-color: #f0b3f0f9;
+    transform: 1s;
+    padding: 10px;
+    border-radius: 30%;
+    transition: 1s;
+}
+.fa-fa-nav-bar ul a{
+
+    text-decoration: none;
+    color: #330233;
+    font-size: 25px;
+}
+
+.fa-fa-nav-bar ul li  img{
+    height: 140px;
+    width: 140px;
+}
+
+.fa-fa-cloth{
+    display: $flexgrid;
+    grid-template-columns: auto auto ;
+    justify-content: space-evenly;
+    
+  
+}
+.fa-fa-cloth article{
+    background-color: palevioletred;
+    width: 700px;
+    height: 600px;
+    margin: 20px;
+}
+
+.fa-fa-cloth img{
+    width: 700px;
+    height: 600px;
+}
+
+.fa-fa-title-shop{
+    color: rgb(245, 246, 250);
+    position: absolute;
+    background-color: rgb(126, 13, 13);
+    left:300px;
+    bottom: 200px;
+    font-size: 35px;
+    padding: 10px;
+    opacity: 0.7;
+    border-radius: 20%;
+    text-transform: uppercase;
+}
+.fa-fa-cat{
+    font-size: 50px;
+    color: darkgoldenrod;
+    text-align: center;
+    background-color: black;
+    text-transform: uppercase;
+    
+}
+.fa-fa-title-rent{
+    color: rgb(245, 246, 250);
+    position: absolute;
+    background-color: rgb(126, 13, 13);
+    left:1000px;
+    bottom: 200px;
+    font-size: 35px;
+    padding: 10px;
+    opacity: 0.7;
+    border-radius: 20%;
+    text-transform: uppercase;
+}
+
+.fa-fa-dress-sec{
+    display: $flexgrid;
+    grid-template-columns: auto auto ;
+    justify-content: space-evenly;
+    
+  
+}
+
+.fa-fa-dress-sec article{
+    background-color: palevioletred;
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+}
+
+.fa-fa-dress-sec img{
+    width: 600px;
+    height: 600px;
+}
+
+.fafa-Co-ord{
+    color: darkmagenta;
+    font-size: 25px;
+    background-color: black;
+}
+
+.fa-fa-contatcus{
+    background-color: rgb(251, 222, 222);
+    height: 100%;
+}
+
+.fa-fa-footer-title1{
+    color: rgb(38, 2, 14);
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.fa-fa-footer-title2{
+    color: rgb(38, 2, 14);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: end;
+    align-items: center;
+}
+
+
+
+.fa-fa-contatcus{
+    // background-color: rgb(180, 14, 147);
+    
+}
+.ca-ca-main-title{
+    font-size: 45px;
+    text-align: center;
+    background-color: rgb(248, 226, 244);
+        color: #330233;
+        font-weight: 800;
+}
+
+  .con-con-form div input, button{
+    border: none;
+    outline: none;
+    background-color: rgb(250, 215, 238);
+    border-bottom: 2px solid black;
+    color: #330233;
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 10%;
+}
+
+.con-con-form div button{
+    border: none;
+}
+.con-con-form div input::placeholder{
+    color:#330233;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.con-con-form{
+    background-color: rgba(236, 179, 231, 0.457);
+}

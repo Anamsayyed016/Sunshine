@@ -1,0 +1,156 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.fa-fa-nav-bar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.fa-fa-nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fa-fa-nav-bar ul a {
+  text-decoration: none;
+  color: #dda0dd;
+  font-size: 25px;
+}
+
+.fa-fa-nav-bar ul li img {
+  height: 140px;
+  width: 140px;
+}
+
+.fa-fa-makeup-sec {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.fa-fa-makeup-sec article {
+  background-color: palevioletred;
+  width: 500px;
+  height: 700px;
+  margin: 20px;
+  margin: 50px;
+  border-radius: 20%;
+}
+
+.fa-fa-makeup-sec img {
+  width: 500px;
+  height: 400px;
+  border-radius: 20%;
+}
+
+.fa-fa-title-sec {
+  font-size: 25px;
+  position: absolute;
+  left: 800px;
+  background-color: rgb(116, 12, 97);
+  margin: -30px;
+  color: #dda0dd;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.fa-fa-title2 {
+  font-size: 25px;
+  position: absolute;
+  left: 500px;
+  background-color: black;
+  color: #dda0dd;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.ma-ma-title {
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  color: #dda0dd;
+  border-radius: 50%;
+}
+
+.ma-ma-title1 {
+  font-size: 20px;
+  text-align: center;
+  background-color: black;
+  color: #dda0dd;
+  border-radius: 50%;
+}
+
+.ma-ma-macimg img {
+  width: 500px;
+  height: 300px;
+}
+
+.ma-ma-bag {
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(120, 6, 86);
+  color: #f8e4f8;
+  position: absolute;
+  padding: 10px;
+  top: 820px;
+  left: 400px;
+  opacity: 0.9;
+  border-radius: 30%;
+}
+
+.ma-ma-bag1 {
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(120, 6, 86);
+  color: #f8e4f8;
+  position: absolute;
+  padding: 10px;
+  top: 820px;
+  border-radius: 30%;
+  opacity: 0.9;
+}
+
+.ma-ma-bag2 {
+  font-size: 25px;
+  text-align: center;
+  background-color: rgb(120, 6, 86);
+  color: #f8e4f8;
+  position: absolute;
+  padding: 10px;
+  border-radius: 30%;
+  opacity: 0.9;
+  top: 1625px;
+}
+
+.ma-ma-heading1 {
+  position: absolute;
+  font-size: 25px;
+  left: 900px;
+  top: 1400px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ma-ma-heading2 {
+  position: absolute;
+  font-size: 25px;
+  left: 900px;
+  top: 1300px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.ma-ma-heading3 {
+  position: absolute;
+  font-size: 25px;
+  left: 900px;
+  top: 1200px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=makeup.css.map */

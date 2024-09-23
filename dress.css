@@ -1,0 +1,319 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.fa-fa-nav-bar {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.fa-fa-nav-bar ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 900;
+}
+
+.fa-fa-nav-bar ul a {
+  text-decoration: none;
+  color: #330233;
+  font-size: 25px;
+}
+
+.fa-fa-nav-bar ul li img {
+  height: 90px;
+  width: 140px;
+}
+
+.fa-fa-coord-sec {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.fa-fa-coord-sec article {
+  background-color: palevioletred;
+  width: 400px;
+  height: 800px;
+  margin: 20px;
+  margin: 50px;
+  border-radius: 20%;
+}
+
+.fa-fa-coord-sec img {
+  width: 400px;
+  height: 800px;
+}
+
+.fa-fa-cord-heading {
+  font-size: 35px;
+  background-color: rgb(247, 236, 236);
+  color: #dda0dd;
+  position: absolute;
+  left: 600px;
+  padding: 8px;
+  border-radius: 10%;
+  color: #3a0224;
+  font-weight: 800;
+  text-align: center;
+}
+
+.fa-fa-cord-title1 {
+  background-color: rgb(243, 243, 251);
+  color: #250225;
+  position: absolute;
+  font-size: 25px;
+  top: 650px;
+  padding: 10px;
+  opacity: 0.8;
+  border-radius: 35%;
+}
+
+.fa-fa-cord-title2 {
+  background-color: rgb(243, 243, 251);
+  color: #250225;
+  font-size: 15px;
+  position: absolute;
+  margin-top: -220px;
+  padding: 5px;
+  opacity: 0.8;
+  border-radius: 35%;
+}
+
+.fa-fa-cord-title3 {
+  background-color: rgb(243, 243, 251);
+  color: #250225;
+  font-size: 15px;
+  position: absolute;
+  margin-top: -180px;
+  padding: 5px;
+  opacity: 0.8;
+  text-transform: uppercase;
+}
+
+.fa-fa-addtocart {
+  font-size: 25px;
+  position: absolute;
+  background-color: rgb(243, 243, 251);
+  color: #250225;
+  margin-top: -50px;
+  padding: 5px;
+  opacity: 0.8;
+}
+
+.fa-fa-buynow {
+  font-size: 25px;
+  position: absolute;
+  left: 300px;
+  background-color: rgb(243, 243, 251);
+  color: #250225;
+  margin-top: -50px;
+  padding: 5px;
+  opacity: 0.8;
+}
+
+.fa-fa-buynow1 {
+  font-size: 25px;
+  position: absolute;
+  left: 850px;
+  background-color: rgb(243, 243, 251);
+  color: #250225;
+  margin-top: -50px;
+  padding: 5px;
+  opacity: 0.8;
+}
+
+.fa-fa-addtocart3 {
+  position: absolute;
+  font-size: 25px;
+  left: 1000px;
+  background-color: rgb(243, 243, 251);
+  color: #250225;
+}
+
+.fa-fa-buynow3 {
+  position: absolute;
+  font-size: 25px;
+  background-color: rgb(243, 243, 251);
+  color: #250225;
+  margin-top: -50px;
+  padding: 5px;
+  opacity: 0.8;
+  left: 1300px;
+}
+
+.fa-fa-wedding-sec {
+  justify-content: space-around;
+  margin: 20px;
+  background-color: #fde8f5;
+}
+
+.fa-fa-wedding-sec article {
+  background-color: palevioletred;
+  width: 400px;
+  height: 800px;
+  margin: 20px;
+  margin: 50px;
+  border-radius: 20%;
+}
+
+.fa-fa-wedding-sec img {
+  width: 400px;
+  height: 800px;
+  border-radius: 20%;
+}
+
+.fa-fa-wedding-heading {
+  font-size: 45px;
+  background-color: rgb(247, 236, 236);
+  color: #3a0224;
+  font-weight: 800;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+  top: 1000px;
+  padding: 8px;
+  border-radius: 10%;
+  opacity: 0.8;
+}
+
+.fa-fa-wedd-title1 {
+  color: #250225;
+  font-size: 25px;
+  position: absolute;
+  left: 640px;
+  top: 1200px;
+}
+
+.fa-fa-wedd-title2 {
+  color: #250225;
+  font-size: 25px;
+  position: absolute;
+  left: 700px;
+  top: 1250px;
+}
+
+.fa-fa-wedd-title3 {
+  color: #250225;
+  font-size: 25px;
+  position: absolute;
+  left: 700px;
+  top: 1300px;
+  text-transform: uppercase;
+}
+
+.fa-fa-wedd-title3 a {
+  text-decoration: none;
+  color: #1c0101;
+}
+
+.fa-fa-addtobag {
+  background-color: rgba(215, 20, 20, 0.242);
+  position: absolute;
+  left: 620px;
+  top: 1400px;
+  font-size: 35px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15%;
+}
+
+.fa-fa-addtobag a {
+  color: #591c1c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.fa-fa-buynow4 {
+  background-color: rgba(215, 20, 20, 0.242);
+  position: absolute;
+  left: 1000px;
+  top: 1400px;
+  font-size: 35px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15%;
+}
+
+.fa-fa-buynow4 a {
+  color: #591c1c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.fa-fa-wedding-sec2 img {
+  position: absolute;
+  left: 900px;
+}
+
+.fa-fa-wedd-sec2-title1 {
+  color: #250225;
+  font-size: 25px;
+  position: absolute;
+  left: 100px;
+  top: 2080px;
+}
+
+.fa-fa-wedd-sec2-title2 {
+  color: #250225;
+  font-size: 25px;
+  position: absolute;
+  left: 300px;
+  top: 2140px;
+  font-weight: 600;
+}
+
+.fa-fa-wedd-sec2-title3 {
+  color: #250225;
+  font-size: 25px;
+  position: absolute;
+  left: 400px;
+  top: 2210px;
+}
+
+.fa-fa-wedd-sec2-title3 a {
+  color: #591c1c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.fa-fa-sec-addtobag {
+  position: absolute;
+  top: 2350px;
+  left: 200px;
+  font-size: 35px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15%;
+  background-color: rgba(215, 20, 20, 0.242);
+}
+
+.fa-fa-sec-addtobag a {
+  color: #591c1c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.fa-fa-sec-buynow {
+  position: absolute;
+  top: 2350px;
+  left: 550px;
+  font-size: 35px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15%;
+  background-color: rgba(215, 20, 20, 0.242);
+}
+
+.fa-fa-sec-buynow a {
+  color: #591c1c;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=dress.css.map */
