@@ -8,6 +8,7 @@
   position: sticky;
   top: 0px;
   z-index: 1;
+  overflow-x: hidden;
 }
 
 .fa-fa-nav-bar ul {
@@ -45,14 +46,14 @@
 
 .fa-fa-cloth article {
   background-color: palevioletred;
-  width: 700px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   margin: 20px;
 }
 
 .fa-fa-cloth img {
-  width: 700px;
-  height: 600px;
+  width: 400px;
+  height: 300px;
 }
 
 .fa-fa-title-shop {
@@ -61,15 +62,53 @@
   background-color: rgb(126, 13, 13);
   left: 300px;
   bottom: 200px;
-  font-size: 35px;
-  padding: 10px;
+  font-size: 25px;
+  padding: 8px;
   opacity: 0.7;
   border-radius: 20%;
   text-transform: uppercase;
 }
 
+@media (max-width: 1025px) {
+  .fa-fa-nav-bar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .fa-fa-cloth,
+  .fa-fa-dress-sec {
+    grid-template-columns: auto;
+  }
+
+  .fa-fa-cloth article,
+  .fa-fa-dress-sec article {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .fa-fa-cloth img,
+  .fa-fa-dress-sec img {
+    width: 100%;
+    height: auto;
+  }
+
+  .fa-fa-title-shop,
+  .fa-fa-title-rent {
+    position: static;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .fa-fa-nav-bar {
+    display: none;
+  }
+}
+
 .fa-fa-cat {
-  font-size: 50px;
+  font-size: 35px;
   color: darkgoldenrod;
   text-align: center;
   background-color: black;
@@ -82,8 +121,8 @@
   background-color: rgb(126, 13, 13);
   left: 1000px;
   bottom: 200px;
-  font-size: 35px;
-  padding: 10px;
+  font-size: 25px;
+  padding: 8px;
   opacity: 0.7;
   border-radius: 20%;
   text-transform: uppercase;
@@ -91,20 +130,20 @@
 
 .fa-fa-dress-sec {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   justify-content: space-evenly;
 }
 
 .fa-fa-dress-sec article {
   background-color: palevioletred;
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
   margin: 20px;
 }
 
 .fa-fa-dress-sec img {
-  width: 600px;
-  height: 600px;
+  width: 300px;
+  height: 300px;
 }
 
 .fafa-Co-ord {
@@ -133,7 +172,7 @@
 }
 
 .ca-ca-main-title {
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
   background-color: rgb(248, 226, 244);
   color: #330233;
